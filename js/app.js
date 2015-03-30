@@ -1,6 +1,7 @@
 var klifeApp = angular.module('klifeApp', []);
 
 klifeApp.controller('BuildListController', function ($scope, $http) {
+	$scope.protocol = "itms-services";
 	$scope.builds = [{
 		"date": {
 			"year": "2015",
