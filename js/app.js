@@ -10,7 +10,7 @@ klifeApp.controller('BuildListController', function ($scope, $http) {
 		},
 		"version": "0.1.1",
 		"chanegeLog": "",
-		"plistID": "xip9s6kelulvuhu",
+		"plistID": "knuf1l8o4q1l360",
 		"ipaID": "hyrapx6gypzi9zf",
 	}];
 });
