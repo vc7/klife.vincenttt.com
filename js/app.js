@@ -1,4 +1,11 @@
-var klifeApp = angular.module('klifeApp', []);
+var klifeApp = angular.module('klifeApp', [])
+.config([
+		'$compileProvider',
+	    function( $compileProvider )
+	    {   
+	        $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|itms-services):/);
+	    }
+	]);
 
 klifeApp.controller('BuildListController', function ($scope, $http) {
 	$scope.protocol = "itms-services";
