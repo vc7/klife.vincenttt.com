@@ -14,6 +14,17 @@ klifeApp.controller('BuildListController', function ($scope, $http) {
 		"date": {
 			"year": "2015",
 			"month": "04",
+			"day": "08"
+		},
+		"version": "0.1.3",
+		"chanegeLog": "加入評等及評論功能、加入分享內部評論到 Facebook 的功能",
+		"plistID": "a5lymfn7ohbxhd5",
+		"ipaID": "hqrusjhs7s6rxcl",
+	},
+	{
+		"date": {
+			"year": "2015",
+			"month": "04",
 			"day": "01"
 		},
 		"version": "0.1.2",
