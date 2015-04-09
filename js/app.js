@@ -14,6 +14,17 @@ klifeApp.controller('BuildListController', function ($scope, $http) {
 		"date": {
 			"year": "2015",
 			"month": "04",
+			"day": "09"
+		},
+		"version": "0.1.4",
+		"chanegeLog": "完成評等顯示及即時更新、書籍資訊頁可以載入歷作",
+		"plistID": "42mpqhpvgn6evje",
+		"ipaID": "5pbb49xsmz88wcn",
+	},
+	{
+		"date": {
+			"year": "2015",
+			"month": "04",
 			"day": "08"
 		},
 		"version": "0.1.3",
