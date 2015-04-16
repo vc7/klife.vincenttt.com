@@ -14,6 +14,17 @@ klifeApp.controller('BuildListController', function ($scope, $http) {
 		"date": {
 			"year": "2015",
 			"month": "04",
+			"day": "16"
+		},
+		"version": "0.1.5",
+		"chanegeLog": "完成 sprint 7 除了通知以外所有項目、設定頁、問題回報、瀏覽相關書籍等。建構 Facebook Profile 暫存機制。建構 GA 基礎架構，試試紀錄一些基本的事件。部分頁面加入單元測試",
+		"plistID": "06r3j4bu26s57mo",
+		"ipaID": "7dp8g9lpcddtu96",
+	},
+	{
+		"date": {
+			"year": "2015",
+			"month": "04",
 			"day": "09"
 		},
 		"version": "0.1.4",
