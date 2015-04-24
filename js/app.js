@@ -14,6 +14,17 @@ klifeApp.controller('BuildListController', function ($scope, $http) {
 		"date": {
 			"year": "2015",
 			"month": "04",
+			"day": "24"
+		},
+		"version": "0.1.6",
+		"chanegeLog": "完成 sprint 8, 仍有已知的 bug 需要後續處理",
+		"plistID": "t0016a3rftzrhn4",
+		"ipaID": "hm1v4f4w03d4lyy",
+	},
+	{
+		"date": {
+			"year": "2015",
+			"month": "04",
 			"day": "16"
 		},
 		"version": "0.1.5",
