@@ -16,6 +16,17 @@ klifeApp.controller('BuildListController', function ($scope, $http) {
 			"month": "05",
 			"day": "25"
 		},
+		"version": "0.1.12",
+		"chanegeLog": "修正 bugs (#41525, #41045, #41276, #41595, #41503, #41544, #41609, #41463, #41506, #41564, #41465)",
+		"plistID": "6eqrgjmtwdo2f7c",
+		"ipaID": "9a47zmmdt006bt0",
+	},
+	{
+		"date": {
+			"year": "2015",
+			"month": "05",
+			"day": "25"
+		},
 		"version": "0.1.11",
 		"chanegeLog": "加入 log 。 修正 bugs (#41516, #41580, #41528, #41507, #41527)",
 		"plistID": "fal1tfda1rg95gk",
