@@ -16,6 +16,18 @@ klifeApp.controller('BuildListController', function ($scope, $http) {
 			"month": "05",
 			"day": "28"
 		},
+		"version": "0.1.18",
+		"chanegeLog": "修正 bugs (#41729, #41730, #41615, #41731, #41727, #41735, #41474)",
+		"plistID": "9oqxv4r37g5ssfj",
+		"ipaID": "ppzx6yu96ac5v8h",
+		"isProduction": true,
+	},
+	{
+		"date": {
+			"year": "2015",
+			"month": "05",
+			"day": "28"
+		},
 		"version": "0.1.17",
 		"chanegeLog": "完成 eventType 1 的 app 版本判斷及 log 機制。修正送 log 造成的 crash 。修正一些自己發現的 UI bugs 。修正 bugs (#41617)",
 		"plistID": "dudb81zkim253n1",
