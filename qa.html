@@ -47,7 +47,7 @@
 				</tr>
 				<tr ng-repeat="build in builds">
 					<td>{{build.date.month}}/{{build.date.day}}<br><small><i>{{build.date.year}}</i></small></td>
-					<td>{{build.version}}</td>
+					<td>{{build.version}} <div ng-if="build.isProduction" class="label label-primary">正式機</div></td>
 					<td>{{build.chanegeLog}}</td>
 					<td>
 						<a class="btn btn-default btn-sm" href="https://dl.dropbox.com/s/{{build.ipaID}}/{{build.version}}.ipa">IPA</span></a>&nbsp;

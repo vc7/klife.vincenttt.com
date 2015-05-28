@@ -19,7 +19,8 @@ klifeApp.controller('BuildListController', function ($scope, $http) {
 		"version": "0.1.16",
 		"chanegeLog": "調整 UI 套圖，修正掃描相關問題，避免猜您喜歡無資料造成的 crash, 修正 bugs (#41686, #41689, #41449, #41609, #41677)",
 		"plistID": "strdvb3rq7agjnp",
-		"ipaID": "ih3gstpf5k9kuur"
+		"ipaID": "ih3gstpf5k9kuur",
+		"isProduction": true,
 	},
 	{
 		"date": {
@@ -30,7 +31,8 @@ klifeApp.controller('BuildListController', function ($scope, $http) {
 		"version": "0.1.15",
 		"chanegeLog": "修正正式機相關設定造成的 bugs, 修正 bugs (#41683, #41681)",
 		"plistID": "lia72bjrw35a3kq",
-		"ipaID": "59qeu4pjicaf3kc"
+		"ipaID": "59qeu4pjicaf3kc",
+		"isProduction": true,
 	},
 	{
 		"date": {
@@ -41,7 +43,8 @@ klifeApp.controller('BuildListController', function ($scope, $http) {
 		"version": "0.1.14",
 		"chanegeLog": "使用正式機，修正 bugs (#41646, #40187, #41597, #41670, #41614, #41615)",
 		"plistID": "89b4tjn1dpm59oi",
-		"ipaID": "rft3u67kwrtlkwa"
+		"ipaID": "rft3u67kwrtlkwa",
+		"isProduction": true,
 	},
 	{
 		"date": {
