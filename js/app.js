@@ -16,6 +16,18 @@ klifeApp.controller('BuildListController', function ($scope, $http) {
 			"month": "06",
 			"day": "03"
 		},
+		"version": "0.1.29",
+		"chanegeLog": "我把 event 1 找回來了！",
+		"plistID": "y21nelfq2flv49u",
+		"ipaID": "es56yzae6ltppav",
+		"isProduction": true,
+	},
+	{
+		"date": {
+			"year": "2015",
+			"month": "06",
+			"day": "03"
+		},
 		"version": "0.1.28",
 		"chanegeLog": "最後一隻蟲！！！！",
 		"plistID": "2nxw4cb124ck9of",
