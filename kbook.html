@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="klifeApp">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>KBook</title>
+
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+		<!-- Twitter Bootstrap -->
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+		<!-- Google Font -->
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans:700' rel='stylesheet' type='text/css'>
+
+		<!-- AngularJS -->
+		<script src="js/angular.min.js"></script>
+		<script src="js/app-kbook.js"></script>
+
+		<!-- GA -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-60474597-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</head>
+	<body>
+		<div class="container" ng-controller="BuildListController">
+			<br/>
+			<h1 style="font-family: 'Droid Sans', sans-serif;font-weight: 700;">KBook</h1>
+			Please choose a build version to install.
+			<hr/>
+			<table class="table table-striped">
+				<tr>
+					<th class="col-md-2">Date</th>
+					<th class="col-md-1">Build</th>
+					<th class="col-md-7">Changes</th>
+					<th class="col-md-2">Install</th>
+				</tr>
+				<tr ng-repeat="build in builds">
+					<td>{{build.date.month}}/{{build.date.day}}<br><small><i>{{build.date.year}}</i></small></td>
+					<td>{{build.version}} <div ng-if="build.isProduction" class="label label-primary">正式機</div></td>
+					<td>{{build.chanegeLog}}</td>
+					<td>
+						<a class="btn btn-danger btn-sm" href="itms-services://?action=download-manifest&url=https://dl.dropbox.com/s/{{build.plistID}}/KollectBook.plist">安裝</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
