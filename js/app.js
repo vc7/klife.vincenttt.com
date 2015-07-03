@@ -2,7 +2,7 @@ var klifeApp = angular.module('klifeApp', [])
 .config([
 		'$compileProvider',
 	    function( $compileProvider )
-	    {   
+	    {
 	        $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|itms-services):/);
 	    }
 	]);
@@ -10,6 +10,18 @@ var klifeApp = angular.module('klifeApp', [])
 klifeApp.controller('BuildListController', function ($scope, $http) {
 	$scope.protocol = "itms-services";
 	$scope.builds = [
+	{
+		"date": {
+			"year": "2015",
+			"month": "--",
+			"day": "--"
+		},
+		"version": "1.0.2",
+		"chanegeLog": "上線版本",
+		"plistID": "ufwjytqapspxf0d",
+		"ipaID": "dauwm4ftjtz6hc2",
+		"isProduction": true,
+	},
 	{
 		"date": {
 			"year": "2015",
